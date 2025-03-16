@@ -297,6 +297,24 @@
     },
 
     {
+      "name": "carla360",
+      "hostname": "A100_01",
+      "root_path": "/home/public/zrtdata/carla360/",
+      "scenes": [
+        {
+          "scene_id": 0,
+          "image_path": "training/image_2",
+          "pcd_path": "training/velodyne",
+          "calib_path": "training/calib",
+          "label_path": "training/label_2",
+          "pose_path": "training/status",
+          "pickle_path_train": "kitti_infos_train.pkl",
+          "pickle_path_val": "kitti_infos_val.pkl"
+        }
+      ]
+    },
+
+    {
       "name": "kitti_velocity",
       "hostname": "A100_01",
       "root_path": "/home/public/mzydata/kitti_velocity/training",
