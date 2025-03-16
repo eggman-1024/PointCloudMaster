@@ -343,6 +343,18 @@
           "pcd_path": "LiDAR/Aeva"
         }
       ]
+    },
+    {
+      "name": "raw_data",
+      "root_path": "F:\\Software\\carla_tools\\raw_data\\record_2025_0316_1311",
+      "scenes": [
+        {
+          "scene_id": 0,
+          "pcd_path": "vehicle.tesla.model3.master/velodyne_semantic",
+          "pose_path": "vehicle.tesla.model3.master/velodyne_semantic/poses.csv",
+          "vehicle_state_path": "vehicle.tesla.model3.master/vehicle_status.csv"
+        }
+      ]
     }
   ]
 }

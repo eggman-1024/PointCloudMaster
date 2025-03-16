@@ -13,3 +13,7 @@
 !options.py
 
 !requirements.txt
+
+!src/
+
+*.pyc
